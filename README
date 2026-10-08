@@ -1,1 +1,102 @@
-# E-Commerce-Conversion-Rate-Analysis
+# E-Commerce Conversion Rate Analysis
+
+## 📌 Project Overview
+
+This project analyzes e-commerce website visitor behavior to understand the factors that influence whether a visitor completes a purchase.
+
+The project uses the **Online Shoppers Purchasing Intention Dataset** and combines data analysis, visualization, machine learning, and Power BI to study customer conversion behavior.
+
+## 🎯 Objectives
+
+- Analyze e-commerce visitor behavior.
+- Identify factors affecting purchase conversion.
+- Compare converted and non-converted visitors.
+- Explore important website engagement metrics.
+- Build machine learning models to predict customer conversion.
+- Create a Power BI dashboard for business insights.
+
+## 📊 Dataset
+
+**Dataset:** Online Shoppers Purchasing Intention Dataset
+
+The dataset contains information about website visitors, including:
+
+- Administrative pages
+- Informational pages
+- Product-related pages
+- Page duration
+- Bounce rate
+- Exit rate
+- Page values
+- Month
+- Operating system
+- Browser
+- Region
+- Traffic type
+- Visitor type
+- Weekend
+- Revenue
+
+The `Revenue` column indicates whether the visitor completed a purchase.
+
+## 🛠️ Tools and Technologies
+
+- **Python**
+- **Google Colab**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Scikit-learn**
+- **Power BI**
+- **GitHub**
+
+## 🔍 Project Workflow
+
+1. Load the Online Shoppers Purchasing Intention dataset.
+2. Perform data cleaning and preprocessing.
+3. Conduct exploratory data analysis.
+4. Create visualizations to understand customer behavior.
+5. Analyze conversion and non-conversion sessions.
+6. Prepare data for machine learning.
+7. Train and evaluate machine learning models.
+8. Create an interactive Power BI dashboard.
+9. Identify important business insights.
+
+## 🤖 Machine Learning
+
+Machine learning models are used to predict whether an e-commerce visitor is likely to make a purchase.
+
+The models are evaluated using performance metrics such as:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+## 📈 Power BI Dashboard
+
+The Power BI dashboard provides visual insights into:
+
+- Total sessions
+- Converted sessions
+- Non-converted sessions
+- Conversion rate
+- Visitor types
+- Revenue
+- Bounce rate
+- Exit rate
+- Monthly conversion trends
+- Customer behavior
+
+## 📁 Project Structure
+
+```text
+E-Commerce-Conversion-Rate-Analysis/
+│
+├── README.md
+│
+├── dataset/
+│   └── online_shoppers_intention.csv
+│
+└── e_commerce_conversion_rate_analysis.ipynb
